@@ -4,7 +4,7 @@ import plotly.figure_factory as ff
 import plotly.graph_objects as go
 import random
 
-read = pd.read_csv('medium_data.csv')
+read = pd.read_csv('data.csv')
 data = read['reading_time'].tolist()
 
 
